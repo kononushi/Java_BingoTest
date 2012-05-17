@@ -13,6 +13,8 @@ import java.util.Vector;
  */
 public class Bingo {
 
+	//フォークしたプロジェクトから書き込み
+
 	static boolean endFlag; // プログラムの終了を判定するフラグ
 	static ArrayList<Integer> bingoNumber; // ビンゴの抽選番号を格納するリスト
 	static Vector<Integer> bingoNumber2; // ビンゴの抽選結果を格納するリスト
@@ -24,7 +26,7 @@ public class Bingo {
 	 */
 	public static void main(String[] args) throws IOException {
 
-		String test = "あいう";
+		String test = "あいうえおかきくけこさしすせそ";
 
 		// 抽選用数字を格納するリストを用意する
 		bingoNumber = new ArrayList<Integer>();
